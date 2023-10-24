@@ -1,17 +1,20 @@
-import Image from "next/image";
-import Link from "next/link";
+import Image from "next/image"
+import Link from "next/link"
 
-export default function Home() {
-  return (
-    <div className=" h-full grid place-items-center bg-gradient-to-t from-slate-200">
+export default function All() {
+    return(
+        <div>
+              <div className=" h-full grid place-items-center ">
       {/*header*/}
       <header>
         <div className="flex flex-row">
-          <h1 className="  -translate-x-32 text-2xl font-bold translate-y-6">
-            홈
+            <Link href={"/#"}> 
+          <h1 className="  -translate-x-20 text-xl translate-y-6">
+        {"<"} 전체계좌조회
           </h1>
+          </Link>
           <Image
-            className="w-36 translate-x-32 translate-y-5"
+            className="w-36 translate-x-20 translate-y-4"
             src={require("public/icon.png")}
           />
         </div>
@@ -19,15 +22,13 @@ export default function Home() {
       {/*header*/}
 
       {/*fir container*/}
-      <div className="w-80 h-16 mb-3 shadow-sm rounded-2xl translate-y-10 bg-white flex flex-row">
-        <h1 className="font-bold text-lg translate-x-3 translate-y-5">
-          내 계좌
-        </h1>
-        <Link href={"/all"}>
-        <h1 className=" text-blue-500 font-medium text-lg translate-x-44 translate-y-5 ">
-          전체보기 {">"}
-        </h1>
-        </Link>
+      <div className="w-full h-12 flex flex-row bg-white  place-items-center">
+            <div className="translate-x-96 flex flex-row translate-y-10">
+
+       <h1 className="text-lg translate-x-24">입출금</h1>
+       <h1 className="text-lg text-blue-500 translate-x-24">3</h1>
+       <h1 className="text-lg translate-x-80">42344원{" >"}</h1>
+            </div>
       </div>
       {/*fir container*/}
       {/*sec container*/}
@@ -72,17 +73,6 @@ export default function Home() {
           </div>
         </div>
       </div>
-
-      <div>
-      <Image
-            className="w-80 translate-y-16 "
-            src={require("public/top.png")}
-          />
- <Image
-            className="w-80 translate-y-16 "
-            src={require("public/bott.png")}
-          />
-      </div>
       {/*sec container*/}
 
       {/*footer*/}
@@ -93,6 +83,6 @@ export default function Home() {
       {/*footer*/}
     </div>
 
- 
-  );
+        </div>
+    )
 }
