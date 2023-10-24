@@ -7,11 +7,11 @@ export default function Home() {
       {/*header*/}
       <header>
         <div className="flex flex-row">
-          <h1 className="  -translate-x-32 text-2xl font-bold translate-y-6">
+          <h1 className="  -translate-x-24 text-2xl font-bold translate-y-6">
             홈
           </h1>
           <Image
-            className="w-36 translate-x-32 translate-y-5"
+            className="w-36 translate-x-24 translate-y-5"
             src={require("public/icon.png")}
           />
         </div>
