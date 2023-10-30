@@ -1,10 +1,19 @@
 import Image from "next/image";
 import Link from "next/link";
 
-export default function All() {
+export default function Managy() {
   return (
     <div>
       <div className=" h-full grid place-items-center ">
+        <div className="w-full absolute z-40 h-screen bg-black opacity-30" />
+        <div className="text-center w-80 h-44 absolute z-50 rounded-2xl bg-white grid place-items-center">
+            <h1 className="p-6 text-gray-500">만 19세 미만 고객님은 영업점 해지, 관리만 가능합니다. 관련서류를 지참하여 가까운 영업점을 방문해주세요.</h1>
+            <Link href="/all">
+            <div className="w-72 h-12 rounded-xl -translate-y-2 bg-blue-500">
+                <h1 className="text-white text-xl font-semibold translate-y-2">확인</h1>
+            </div>
+            </Link>
+        </div>
         {/*header*/}
         <header>
           <div className="flex flex-row">
@@ -35,8 +44,6 @@ export default function All() {
           </div>
         </div>
         {/*fir container*/}
-
-   
         {/*sec container*/}
 
         <div className="w-80 h-36 rounded-2xl shadow-sm translate-y-10 border-2 bg-white">
@@ -106,11 +113,9 @@ export default function All() {
               120,000,000원
             </h1>
           </div>
-          <Link href="managy">
           <div className="bg-slate-100 border-2 text-center translate-y-5 -translate-x-0.5  w-80 h-8 rounded-b-2xl ">
             <h1 className="text-gray-500">해지</h1>
           </div>
-          </Link>
         </div>
         {/*sec container*/}
         {/*sec container*/}
@@ -146,12 +151,9 @@ export default function All() {
             ㅤ 48,536,903원
             </h1>
           </div>
-          <Link href="managy">
           <div className="bg-slate-100 border-2 text-center translate-y-5 -translate-x-0.5  w-80 h-8 rounded-b-2xl ">
             <h1 className="text-gray-500">관리</h1>
-            
           </div>
-          </Link>
         </div>
         {/*sec container*/}
                 {/*sec container*/}
@@ -187,11 +189,9 @@ export default function All() {
             1,219,542,463원
             </h1>
           </div>
-          <Link href="managy">
           <div className="bg-slate-100 border-2 text-center translate-y-5 -translate-x-0.5  w-80 h-8 rounded-b-2xl ">
             <h1 className="text-gray-500">관리</h1>
           </div>
-          </Link>
         </div>
         {/*sec container*/}
         {/*footer*/}

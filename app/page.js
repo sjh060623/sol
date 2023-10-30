@@ -53,7 +53,7 @@ export default function Home() {
           <div>
             <div className="flex flex-row" >
               <h1 className=" translate-y-4">입출금</h1>
-              <h1 className=" translate-y-4 text-gray-500">[한도제한계좌1]</h1>
+              <h1 className=" translate-y-4 text-gray-500">[입출금계좌1]</h1>
             </div>
             <h1 className=" translate-y-3 text-gray-400 text-sm">
               신한 110-529-968658
