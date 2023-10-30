@@ -8,7 +8,9 @@ import { useState , useEffect} from "react";
 export default function Load() {
 const router = useRouter()
 setInterval(() => {
-    router.push("/")
+    router.push("/")    
+    clearInterval();
+
 }, 500);
     return(
         <div>
