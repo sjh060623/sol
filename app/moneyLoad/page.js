@@ -12,11 +12,10 @@ export default function moneyLoad() {
   const RefreshEvent = () => {
     router.push("/load");
   }
-setInterval(() => {
+setTimeout(() => {
     router.push("/")
-    clearInterval();
+    
 }, 300);
-
 
   return (
     <PullToRefresh onRefresh={RefreshEvent}>
