@@ -6,12 +6,15 @@ import Link from "next/link";
 
 import PullToRefresh from 'react-simple-pull-to-refresh';
 
-export default function Home() {
+export default function moneyLoad() {
   const router = useRouter()
 
   const RefreshEvent = () => {
     router.push("/load");
   }
+setInterval(() => {
+    router.push("/")
+}, 300);
 
 
   return (
@@ -71,13 +74,11 @@ export default function Home() {
         </div>
 
         <div className="flex flex-row">
-          <h1 className="font-bold text-2xl translate-x-4">671,432,977원</h1>
-          <Link href="/moneyLoad">
+          <h1 className="font-bold text-2xl translate-x-4">원</h1>
           <Image
             className="w-6 h-6 translate-x-5 translate-y-1"
             src={require("public/re.png")}
           />
-          </Link>
         </div>
 
         <div className="flex flex-row space-x-2">
