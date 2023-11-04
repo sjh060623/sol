@@ -65,7 +65,7 @@ export default function All() {
 
           <div className="flex flex-row">
             <h1 className="font-bold text-lg translate-x-44  translate-y-4">
-              671,432,977원
+              551,432,977원
             </h1>
           </div>
           <div className="bg-slate-100 border-2 text-center translate-y-5 -translate-x-0.5  w-80 h-8 rounded-b-2xl ">
@@ -143,8 +143,8 @@ export default function All() {
           </div>
 
           <div className="flex flex-row">
-            <h1 className="font-bold text-lg translate-x-52 translate-y-4">
-            120,000원
+            <h1 className="font-bold text-lg translate-x-44 translate-y-4">
+            120,000,000원
             </h1>
           </div>
           <Link href="managy">
@@ -184,8 +184,8 @@ export default function All() {
           </div>
 
           <div className="flex flex-row">
-            <h1 className="font-bold text-lg translate-x-52 translate-y-4">
-            120,000원
+            <h1 className="font-bold text-lg translate-x-64  translate-y-4">
+          0원
             </h1>
           </div>
           <Link href="managy">
