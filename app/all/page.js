@@ -154,6 +154,47 @@ export default function All() {
           </Link>
         </div>
         {/*sec container*/}
+             {/*sec container*/}
+
+             <div className="w-80 h-36 rounded-2xl mt-7 shadow-sm translate-y-10 border-2 bg-white">
+          <div className="flex flex-row">
+            
+            <Image
+              className="w-7 h-7 m-4 translate-x-2 translate-y-1"
+              src={require("public/sin.png")}
+            />
+            <div>
+              <div className="flex flex-row">
+                <h1 className=" translate-y-4">홍이삭지원금</h1>
+                <h1 className=" translate-y-4 text-gray-500">
+                  [쏠편한비상금]
+                </h1>
+              </div>
+              <h1 className=" translate-y-3 text-gray-400 text-sm">
+              신한 110-529-968658
+              </h1>
+              <h1 className=" translate-y-3 text-gray-400 text-sm">
+                입출금계좌
+              </h1>
+            </div>
+            <Image
+              className="w-5 h-5 -translate-x-8 translate-y-9"
+              src={require("public/copy.png")}
+            />
+          </div>
+
+          <div className="flex flex-row">
+            <h1 className="font-bold text-lg translate-x-48 translate-y-4">
+            1,200,000원
+            </h1>
+          </div>
+          <Link href="managy">
+          <div className="bg-slate-100 border-2 text-center translate-y-5 -translate-x-0.5  w-80 h-8 rounded-b-2xl ">
+            <h1 className="text-gray-500">관리</h1>
+          </div>
+          </Link>
+        </div>
+        {/*sec container*/}
          {/*sec container*/}
 
          <div className="w-80 h-36 rounded-2xl mt-7 shadow-sm translate-y-10 border-2 bg-white">
