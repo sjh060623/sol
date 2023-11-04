@@ -137,7 +137,7 @@ export default function All() {
               </h1>
             </div>
             <Image
-              className="w-5 h-5 translate-x-0.5 translate-y-9"
+              className="w-5 h-5 -translate-x-8 translate-y-9"
               src={require("public/copy.png")}
             />
           </div>
