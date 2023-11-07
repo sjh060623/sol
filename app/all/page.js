@@ -106,7 +106,7 @@ export default function All() {
               120,000,000원
             </h1>
           </div>
-          <Link href="managy">
+          <Link href="managy" >
           <div className="bg-slate-100 border-2 text-center translate-y-5 -translate-x-0.5  w-80 h-8 rounded-b-2xl ">
             <h1 className="text-gray-500">해지</h1>
           </div>
@@ -143,8 +143,8 @@ export default function All() {
           </div>
 
           <div className="flex flex-row">
-            <h1 className="font-bold text-lg translate-x-44 translate-y-4">
-            120,000,000원
+            <h1 className="font-bold text-lg translate-x-52 translate-y-4">
+            697,400원
             </h1>
           </div>
           <Link href="managy">
@@ -185,7 +185,7 @@ export default function All() {
           </div>
 
           <div className="flex flex-row">
-            <h1 className="font-bold text-lg translate-x-40 translate-y-4">
+            <h1 className="font-bold text-lg translate-x-44 translate-y-4">
             ㅤ 48,536,903원
             </h1>
           </div>
