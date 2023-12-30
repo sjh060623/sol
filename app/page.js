@@ -71,7 +71,7 @@ export default function Home() {
         </div>
 
         <div className="flex flex-row">
-          <h1 className="font-bold text-2xl translate-x-4">926,155,983원</h1>
+          <h1 className="font-bold text-2xl translate-x-4">1,745,812,332원</h1>
           <Link href="/moneyLoad">
           <Image
             className="w-6 h-6 translate-x-5 translate-y-1"
